@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page_Nyumbani_Hotel</title>
+    <style>
+        /* Body Style */
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-image: url('ho8.jpg');
+            position: relative;
+        }
+
+        /* Creating blurred background */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        /* Header Style */
+        header {
+            background-color: rgb(212, 208, 151);
+            border-radius: 10px;
+            gap: 0px;
+            padding: 10px;
+        }
+
+        header img {
+            height: 100px;
+        }
+
+        header h1 {
+            font-family: 'Bradley Hand ITC', cursive;
+            margin: 0;
+        }
+
+        /* Navigation */
+        .navbar {
+            display: flex;
+            justify-content: right;
+            padding: 15px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #f1df82;
+            color: rgb(0, 0, 0);
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #e0c45a;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Section Style */
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        h1, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Footer Style */
+        footer {
+            background-color: darkkhaki;
+            display: flex;
+            gap: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        footer div {
+            text-align: left;
+        }
+
+        footer img {
+            height: 100px;
+        }
+
+        footer a {
+            display: block;
+            margin: 5px 0;
+            color: #000;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #f1df82;
+        }
+
+        footer label, footer button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body  style="margin: 0; font-family: sans-serif;">
+    <header style="background-color:rgb(212, 208, 151);border-radius: 10px;gap: 0px;padding-top: 30px;">
+        <div style="display: flex; align-items:Center;gap:  08px;">
+            <image src="Nyumbani_Hotel_Logo.png" height="100px" />
+            <h1>
+                <font face="Bradley Hand ITC"> NYUMBANI</font>
+            </h1>
+            <h2>HOTEL</h2>
+
+        </div>
+        <div>
+            <nav class="navbar">
+                <ul class="active">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="facilitices.html">Facilities</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <section>
+        <h1>About Us</h1>
+        <h3>
+            Welcome to NYUMBANI HOTEL, a charming boutique accommodation nestled in the vibrant suburb of Nugegoda, Colombo. Our name "Nyumbani" means "home" in Swahili, reflecting our commitment to providing guests with a warm, welcoming atmosphere that feels like a home away from home. Located in the heart of Nugegoda, we offer convenient access to Colombo's business districts, shopping centers, and cultural attractions while providing a peaceful retreat from the city's hustle and bustle. Our thoughtfully designed rooms combine modern amenities with touches of Sri Lankan hospitality to ensure your comfort.<br><br>
+
+            At NYUMBANI HOTEL, we pride ourselves on personalized service, attention to detail, and creating memorable experiences for both business and leisure travelers. Whether you're visiting for work, exploration, or relaxation, we invite you to experience the perfect balance of comfort, convenience, and local charm during your stay in Colombo.<br><br>
+
+            Thank you for choosing NYUMBANI HOTEL. We look forward to welcoming you and making your stay truly remarkable!
+        </h3>
+    </section>
+
+    <footer>
+        <div>
+            <h1>NYUMBANI</h1>
+            <h2>HOTEL</h2><br/>
+            <img src="Nyumbani_Hotel_Logo.png" alt="Nyumbani Hotel Logo" />
+        </div>
+        <div>
+            <h2>Contact Info</h2>
+            <hr size="3" color="brown"  style="width:95%">
+            <p>
+                18/3A,<br/>
+                Gangodawila,<br/>
+                Nugegoda,<br/>
+                Colombo<br/><br/>
+                0112832924<br/>
+                0112576943
+            </p>
+        </div>
+        <div>
+            <h2>Follow Us</h2>
+            <hr size="3" color="brown"  style="width:95%">
+            <a href="https://web.facebook.com/denovo.lk/?profile_tab_item_selected=about&_rdc=1&_rdr#">Hotel Facebook Page</a>
+            <a href="https://www.instagram.com/k_artspro/">Instagram Page</a>
+        </div>
+        <div>
+            <h2>Subscribe Us</h2>
+            <hr size="3" color="brown"  style="width:95%">
+            <label>Email: <input type="email" name="email" /></label><br/>
+            <button>Subscribe</button>
+        </div>
+    </footer>
+</body>
+
+</html>

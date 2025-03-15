@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Facilities_Nyumbani_Hotel</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: right;
+            padding: 15px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #f1df82;
+            color: rgb(0, 0, 0);
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: 0.3s;
+        }
+
+        .facility-section {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .facility-card {
+            background-color: burlywood;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .facility-card h3 {
+            color: darkbrown;
+            font-size: 1.5rem;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        .facility-card ul {
+            text-align: center;
+            padding-left: 0;
+            list-style-type: none; /* Removed bullets */
+        }
+
+        .facility-card ul li {
+            margin: 5px 0;
+            text-align: center; /* Centering the descriptions */
+        }
+
+        .grid-view img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .grid-view {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(3, 300px);
+            justify-content: center;
+        }
+         /* Footer Style */
+         footer {
+            background-color: darkkhaki;
+            display: flex;
+            gap: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        footer div {
+            text-align: left;
+        }
+
+        footer img {
+            height: 100px;
+        }
+
+        footer a {
+            display: block;
+            margin: 5px 0;
+            color: #000;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #f1df82;
+        }
+
+        footer label, footer button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; font-family: sans-serif;"bgcolor="Cornsilk">
+
+    <header style="background-color:rgb(212, 208, 151);border-radius: 10px;gap: 0px;">
+        <div style="display: flex; align-items:Center;gap:  08px;padding-top: 30px;">
+            <image src="Nyumbani_Hotel_Logo.png" height="100px" />
+            <h1>
+                <font face="Bradley Hand ITC"> NYUMBANI</font>
+            </h1>
+            <h2>HOTEL</h2>
+
+        </div>
+        <div>
+            <nav class="navbar">
+                <ul class="active">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="facilitices.html">Facilities</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <h1 style="text-align: center;">Our Facilities</h1>
+            <hr size="3" color="brown" style="width: 95%;">
+
+            <div style="margin-bottom: 10px;" class="facility-section">
+                <div class="facility-card">
+                    <h3>Banquet Halls</h3>
+                    <ul>
+                        <li>Large Capacity for Events</li>
+                        <li>Fully Equipped Audio-Visual Systems</li>
+                        <li>Flexible Floor Plans</li>
+                        <li>Dedicated Event Planner</li>
+                        <li>Catering Services</li>
+                    </ul>
+                </div>
+
+                <div class="facility-card">
+                    <h3>Guest Rooms</h3>
+                    <ul>
+                        <li>Luxuriously Furnished Rooms</li>
+                        <li>24/7 Room Service</li>
+                        <li>Comfortable King/Queen-Sized Beds</li>
+                        <li>Free Wi-Fi</li>
+                        <li>En-suite Bathrooms with Modern Amenities</li>
+                    </ul>
+                </div>
+
+                <div class="facility-card">
+                    <h3>Exclusive VIP Lounge</h3>
+                    <ul>
+                        <li>Private Access for VIP Guests</li>
+                        <li>Complimentary Beverages and Snacks</li>
+                        <li>Relaxing Ambiance</li>
+                        <li>Personalized Concierge Services</li>
+                    </ul>
+                </div>
+
+                <div class="facility-card">
+                    <h3>Conference Rooms</h3>
+                    <ul>
+                        <li>State-of-the-art Equipment</li>
+                        <li>Flexible Room Layouts</li>
+                        <li>Projectors, Audio Systems & Whiteboards</li>
+                        <li>Professional Support Staff</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr size="3" color="brown" style="width: 95%;">
+
+            <div style="display: flex; justify-content: center; margin-top: 20px;margin-bottom: 10px;">
+                <div class="grid-view">
+                    <img src="ho1.jpg" alt="Facility Image 1">
+                    <img src="ho2.jpg" alt="Facility Image 2">
+                    <img src="ho12.jpg" alt="Facility Image 3">
+                    <img src="ho3.jpg" alt="Facility Image 4">
+                    <img src="ho4.jpg" alt="Facility Image 5">
+                    <img src="ho11.jpg" alt="Facility Image 6">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h1>NYUMBANI</h1>
+            <h2>HOTEL</h2><br/>
+            <img src="Nyumbani_Hotel_Logo.png" alt="Nyumbani Hotel Logo" />
+        </div>
+        <div>
+            <h2>Contact Info</h2>
+            <hr size="3" color="brown"  style="width:95%">
+            <p>
+                18/3A,<br/>
+                Gangodawila,<br/>
+                Nugegoda,<br/>
+                Colombo<br/><br/>
+                0112832924<br/>
+                0112576943
+            </p>
+        </div>
+        <div>
+            <h2>Follow Us</h2>
+            <hr size="3" color="brown"  style="width:95%">
+            <a href="https://web.facebook.com/denovo.lk/?profile_tab_item_selected=about&_rdc=1&_rdr#">Hotel Facebook Page</a>
+            <a href="https://www.instagram.com/k_artspro/">Instagram Page</a>
+        </div>
+        <div>
+            <h2>Subscribe Us</h2>
+            <hr size="3" color="brown"  style="width:95%">
+            <label>Email: <input type="email" name="email" /></label><br/>
+            <button>Subscribe</button>
+        </div>
+    </footer>
+
+</body>
+
+</html>
